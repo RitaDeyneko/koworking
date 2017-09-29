@@ -1,0 +1,87 @@
+﻿/*боковая панель*/
+
+.sidebar {
+    float: left;
+    width: 180px;
+    padding-right: 15px;
+}
+
+.nav-menu {
+    margin: 0;
+
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-menu__item {
+    padding-bottom: 34px;
+}
+
+/*.nav-menu__item_active .nav-menu__text {*/
+    /*color:#221f1f;*/
+/*}*/
+
+/*.nav-menu__item_active .nav-menu__icon {*/
+    /*background: url("../../images/feed_icon.png") no-repeat;*/
+    /*width: 21px;*/
+    /*height: 19px;*/
+/*}*/
+
+.nav-menu__link {
+    text-decoration: none;
+}
+
+.nav-menu__icon {
+    display: inline-block;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+
+.nav-menu__icon--main {
+    background: url("../../img/icons/main1.png") no-repeat;
+    width: 18px;
+    height: 15px;
+}
+
+.nav-menu__link:hover .nav-menu__icon-main {
+    background: url("../../img/icons/main-hover.png") no-repeat;
+    width: 18px;
+    height: 15px;
+}
+
+.nav-menu__icon--rates {
+    background: url("../../img/icons/rates.png") no-repeat;
+    width: 19px;
+    height: 16px;
+}
+
+.nav-menu__link:hover .nav-menu__icon--rates {
+    background: url("../../img/icons/rates-hover.png") no-repeat;
+    width: 19px;
+    height: 16px;
+}
+
+.nav-menu__icon--reviews {
+    background: url("../../img/icons/reviews.png") no-repeat;
+    width: 21px;
+    height: 19px;
+}
+
+.nav-menu__link:hover .nav-menu__icon--reviews {
+    background: url("../../img/icons/reviews-hover.png") no-repeat;
+    width: 21px;
+    height: 19px;
+}
+
+.nav-menu__link:hover .nav-menu__text {
+    color: #221f1f;
+}
+
+.nav-menu__text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ec1e79;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 122px;
+}

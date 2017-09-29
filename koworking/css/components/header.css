@@ -1,0 +1,36 @@
+﻿/*---------шапка страницы*/
+
+.header {
+    margin-bottom: 45px;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+
+.header__left {
+    padding: 12px 0px 13px 0px;
+}
+
+
+
+.header__right {
+    display: inline-block;
+    text-align: right;
+    padding: 19px 0px 17px 0;
+}
+
+.contacts__phone {
+    font-weight: bold;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.contacts__schedule {
+    color: #ec1e79;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: .7;
+}
